@@ -1,0 +1,454 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /*--===========width=============--*/
+  --max-width-container-large: 133.2rem;
+  --max-witdh-container-small-h1: 54.3rem;
+  --max-witdh-container-small-h2: 36.6rem;
+  --max-width-container: 110.8rem;
+  /*--===========font family=============--*/
+  --ff-Poppins: "Poppins", sans-serif;
+  --ff-Heebo: "Heebo", sans-serif;
+  --ff-Montserrat: "Montserrat", sans-serif; /*--=============colores===========--*/
+  --cl-azul: #2d9cdb;
+  --cl-blanco: #ffffff;
+  --cl-edie-footer: #f2f2f2;
+  --cl-gris: #828282;
+  --cl-plomo: #e0e0e0;
+  --cl-rojo: #eb5757;
+  --cl-negro: #000000;
+  --cl-footer: #100e1d;
+  --cl-verde: #27ae60;
+}
+body {
+  font-family: var(--ff-Poppins);
+  font-weight: 400;
+}
+
+/*  
+font-family: ;
+font-family: ;
+font-family: ;
+
+
+edit
+
+unfold_more
+
+
+
+trending_flat
+
+
+logo
+font-family: Heebo;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+background: #333333;
+
+Size 36px
+Line height 52,88px
+
+
+
+container-small-h1 p
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+background: #2D9CDB;
+
+Size 18px
+Line height 27px
+
+
+h1
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+background: #333333;
+
+
+Size 48px
+Line height 72px
+
+
+
+container-small-h2 
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+background: #333333;
+
+
+Size 48px
+Line height 72px
+
+
+
+
+container-small-h2 p
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+
+Size 18px
+Line height 27px
+
+
+
+label
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+background: #828282;
+
+
+Size 14px
+Line height 21px
+
+
+
+input
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+background: #BDBDBD;
+
+
+Size 18px
+Line height 27px
+
+
+padding:12px 20px;
+#2D9CDB
+
+
+button
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+
+Size 18px
+Line height 27px
+
+
+
+h3
+
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+background: #333333;
+
+
+Size 36px
+Line height 54px
+
+icon:27px
+
+
+
+h4
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+background: #333333;
+
+
+
+h4 p
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+#4F4F4F, 100 %
+
+
+card button
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+texto
+background: #828282;
+
+
+
+#FFFFFF, 100 %
+
+1icono
+background: #2D9CDB;
+2icono
+background: #27AE60;
+
+3icono
+background: #EB5757;
+
+plomo
+background: #E0E0E0;
+azul
+background: #2D9CDB;
+
+
+h5
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+background: #828282;
+
+
+
+Size 14px
+Line height 21px
+
+
+card p
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+background: #333333;
+
+
+
+Size 24px
+Line height 36px
+
+
+main a
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+background: #2D9CDB;
+
+
+
+Size 24px
+Line height 36px
+
+
+
+team-left h5
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+background: #EB5757;
+
+
+team-left h3
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+background: #333333;
+
+team-left p
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+background: #4F4F4F;
+
+
+
+coments p
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+#333333, 100 %
+
+
+Size 36px
+Line height 54px
+ 
+
+coment-name
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+background: #333333;
+
+
+coment position
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+background: #828282;
+
+
+
+
+footer nav
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+background: #FFFFFF;
+
+
+
+
+logo footer
+font-family: Heebo;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+
+
+links 24px  
+
+
+
+
+
+
+
+
+
+
+*/
+.cara {
+  position: relative;
+}
+
+.cara::before {
+  font-family: "Material Icons";
+  content: "search";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: #e90303;
+  position: absolute;
+  left: 0;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.informacion__icon .propiedad::before {
+  font-size: 2.9rem;
+}
+.informacion__icon .propiedad::before {
+  font-family: "Material icons";
+  content: "schedule";
+  display: inline-block;
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 1;
+  color: var(--color-header-p);
+  position: absolute;
+  left: 0;
+  direction: ltr;
+}
