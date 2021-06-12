@@ -26,21 +26,21 @@
         <div class="hamburguesa">
           <img src="img/hamburguesa.svg" alt="mobile menu">
         </div>
-        <div class="navig ation">
+        <div class="navigation">
             <nav class="nav">
-              <li class="nav__list nav__active">
+              <li class="nav__list nav__list-active">
                 <a href="#">Home</a>
               </li>
-              <li>
+              <li class="nav__list">
                 <a href="#">Services</a>
               </li>
-              <li>
+              <li class="nav__list">
                 <a href="#">Our Works</a>
               </li>
-              <li>
+              <li class="nav__list">
                 <a href="#">Clients</a>
               </li>
-              <li>
+              <li class="nav__list">
                 <a href="#">Contact</a>
               </li>
           </nav>
@@ -56,13 +56,15 @@
         <h1>We create beautiful and fast web services</h1>
       </div>
       <img src="img/heroImage.jpg" alt="heroImage">
-      <div class="container-small-h2">
-        <h2>Story, emotion and purpose</h2>
-        <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
-        <label for="contact">Want us to contact you?</label>
-        <div>
-          <input type="email" id="contact" placeholder="Email" >
-          <button class="button button-join " type="submit">Join</button>
+      <div class="container-small-h1">
+        <div class="container-small-h2">
+          <h2>Story, emotion and purpose</h2>
+          <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+          <label for="contact">Want us to contact you?</label>
+          <div class="join">
+            <input type="email" id="contact" placeholder="Email" >
+            <button class="button button-join " type="submit">Join</button>
+          </div>
         </div>
       </div>
     </section>
@@ -70,19 +72,25 @@
       <h3>We offer high demand services  </h3>
       <div class="container-cards">
         <div class="card">
-          <div class="car-icon"><img src="img/server.svg" alt=""></div>
+          <div class="card-icon edit"></div>
           <h4>UI/UX Design</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
           <button class="button">Get started</button>
         </div>
         <div class="card">
-          <div class="car-icon"></div>
+          <div class="card-icon unfold_more"></div>
           <h4>Front End</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
           <button class="button">Get started</button>
         </div>
         <div class="card">
-          <div class="car-icon"></div>
+          <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" class="dns" viewBox="0 0 186.001 146">
+            <g id="server" transform="translate(-616 -339)">
+              <path id="Sustracción_58" data-name="Sustracción 58" d="M-6023-333h-150a17.88,17.88,0,0,1-12.728-5.272A17.881,17.881,0,0,1-6191-351a17.881,17.881,0,0,1,5.272-12.728A17.88,17.88,0,0,1-6173-369h150a17.882,17.882,0,0,1,12.728,5.272A17.883,17.883,0,0,1-6005-351a17.883,17.883,0,0,1-5.272,12.728A17.882,17.882,0,0,1-6023-333Zm-153-25v14h14v-14Z" transform="translate(6807 708)" fill="#fff"/>
+              <path id="Sustracción_59" data-name="Sustracción 59" d="M-6023-333h-150a17.88,17.88,0,0,1-12.728-5.272A17.881,17.881,0,0,1-6191-351a17.881,17.881,0,0,1,5.272-12.728A17.88,17.88,0,0,1-6173-369h150a17.882,17.882,0,0,1,12.728,5.272A17.883,17.883,0,0,1-6005-351a17.883,17.883,0,0,1-5.272,12.728A17.882,17.882,0,0,1-6023-333Zm-153-25v14h14v-14Z" transform="translate(6807 763)" fill="#fff"/>
+              <path id="Sustracción_60" data-name="Sustracción 60" d="M-6023-333h-150a17.88,17.88,0,0,1-12.728-5.272A17.881,17.881,0,0,1-6191-351a17.881,17.881,0,0,1,5.272-12.728A17.88,17.88,0,0,1-6173-369h150a17.882,17.882,0,0,1,12.728,5.272A17.883,17.883,0,0,1-6005-351a17.883,17.883,0,0,1-5.272,12.728A17.882,17.882,0,0,1-6023-333Zm-153-25v14h14v-14Z" transform="translate(6807 818)" fill="#fff"/>
+            </g>
+          </svg></div>
           <h4>Back End</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
           <button class="button">Get started</button>
@@ -122,32 +130,36 @@
           <p>Juice product homepage</p>
         </div>
       </div>
-      <div>
-        <a href="#">see more</a>
+      <div class="see-more">
+        <a class="card-icon trending_flat" href="#">see more</a>
       </div>
     </main>
     <section class="container">
-      <div class="team-left">
-        <h5>Meet the team</h5>
-        <h3>We are chilled and a laidback team</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="team-right">
-        <div class="team__profile">
-          <div class="tema__profile-image">
-            <img src="img/person3.png" alt="Profile-image">
-          </div>
-          <div class="tema__profile-image">
-            <img src="img/person1.png" alt="Profile-image">
-          </div>
-          <div class="tema__profile-image">
-            <img src="img/person2.png" alt="Profile-image">
+      <div class="meet-the-team">
+        <div class="team-left">
+          <h5>Meet the team</h5>
+          <h3>We are chilled and a laidback team</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="team-right">
+          <div class="team__profile">
+            <div class="tema__profile-image">
+              <img src="img/person3.png" alt="Profile-image">
+            </div>
+            <div class="right">
+              <div class="tema__profile-image">
+                <img src="img/person1.png" alt="Profile-image">
+              </div>
+              <div class="tema__profile-image">
+                <img src="img/person2.png" alt="Profile-image">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="container">
-      <p>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    </p>
+      <p class="commentary">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
       <div class="coment">
         <img src="img/person4.png" alt="Profile-image">
         <div class="coment__info">
@@ -156,46 +168,48 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="fondo-oscuro">
       <div class="container">
         <div class="links">
           <ul>
             <li class="nav__list nav__active">
               <a href="#">Home</a>
             </li>
-            <li>
+            <li class="nav__list">
               <a href="#">Services</a>
             </li>
-            <li>
+            <li class="nav__list">
               <a href="#">Our Works</a>
             </li>
-            <li>
+            <li class="nav__list">
               <a href="#">Clients</a>
             </li>
-            <li>
+            <li class="nav__list">
               <a href="#">Contact</a>
             </li>
           </ul>
-          <div>
-            <p></p>
-            <div>
-              <div class="links__social">
-              </div>
-              <div class="links__social">
-              </div>
-              <div class="links__social">
-        
-              </div>
+        </div>  
+        <div  class="box-social">
+          <a class="footer-logo" href="#">Edie</a>
+          <div class="social">
+            <div class="links__social">
+              <img src="img/instagram.svg" alt="">
             </div>
-          </div>
-          <div>
-            <label for="contact-footer">Want us to contact you?</label>
-            <div>
-              <input type="email" id="contact-footer" placeholder="Email" >
-              <button class="button button-join " type="submit">Join</button>
+            <div class="links__social">
+              <img src="img/linkedin.svg" alt="">
+            </div>
+            <div class="links__social">
+              <img src="img/twitter.svg" alt="">
             </div>
           </div>
         </div>
+        <div>
+          <label for="contact">Want us to contact you?</label>
+        <div class="join">
+          <input type="email" id="contact" placeholder="Email" >
+          <button class="button button-join " type="submit">Join</button>
+        </div>
+        </div>        
       </div>
     </section>
     <footer>
@@ -203,7 +217,7 @@
           <p>created by <span><a href="https://www.linkedin.com/in/gustavo-omonte-acevedo/">Gustavo Omonte Acevedo</a></span> - devChallenges.io </p>
         </div>
     </footer>
-    <span class="cara"></span>
+    
   </body>
 
 </html>
